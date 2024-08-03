@@ -1,6 +1,6 @@
 # Neovim Configuration
 
-This repository contains my personal Neovim configuration, using [lazy.nvim](https://github.com/folke/lazy.nvim) for plugin management and various plugins for a rich development experience. The configuration is tailored for modern web development with a focus on JavaScript, TypeScript, Lua, and general programming.
+This repository contains my personal Neovim configuration, using [lazy.nvim](https://github.com/folke/lazy.nvim) for plugin management and various plugins for a rich development experience.
 
 ## Installation
 
