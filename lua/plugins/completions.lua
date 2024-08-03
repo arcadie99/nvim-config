@@ -31,6 +31,15 @@ return {
 					["<C-Space>"] = cmp.mapping.complete(),
 					["<C-e>"] = cmp.mapping.abort(),
 					["<CR>"] = cmp.mapping.confirm({ select = true }),
+					["<Tab>"] = function(fallback)
+						if cmp.visible() then
+							cmp.select_next_item()
+						elseif require("luasnip").expand_or_jumpable() then
+							require("luasnip").expand_or_jump()
+						else
+							fallback()
+						end
+					end,
 				}),
 				sources = cmp.config.sources({
 					{ name = "nvim_lsp" },
