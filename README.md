@@ -93,11 +93,3 @@ Additional custom settings are defined in various files:
 
 - **Updating Plugins**: Use `:Lazy sync` to update plugins to their latest versions.
 - **Adding New Plugins**: Add the plugin specification in `lua/plugins.lua` or a specific file under the `lua/plugins/` directory.
-
-## License
-
-This configuration is open-source and available under the [MIT License](LICENSE).
-
----
-
-Feel free to customize this README to better fit your setup or add any additional information specific to your configuration!
